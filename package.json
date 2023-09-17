@@ -1,5 +1,29 @@
 {
   "devDependencies": {
-    "eslint": "^8.49.0"
+    "eslint": "^8.49.0",
+    "nodemon": "^2.0.22"
+  },
+  "name": "websocket-study",
+  "description": "Estudo inicial em websockets utilizando Socket.IO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiamferreira/websocket-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreiamferreira/websocket-study/issues"
+  },
+  "homepage": "https://github.com/andreiamferreira/websocket-study#readme",
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
